@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '1.9.3', :engine => 'jruby', :engine_version => '1.7.16.1'
+
 gem 'cuba', '~> 3.3.0'
 gem 'rake', '~> 10.3.2'
 gem 'dotenv', '~> 1.0.2'
