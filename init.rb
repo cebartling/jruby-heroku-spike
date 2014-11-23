@@ -1,4 +1,4 @@
-$LOAD_PATH << __dir__ << File.join(__dir__, 'lib')
+#$LOAD_PATH << __dir__ << File.join(__dir__, 'lib')
 ENV['RACK_ENV'] ||= 'development'
 
 require 'bundler'
